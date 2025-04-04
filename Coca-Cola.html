@@ -11,19 +11,33 @@
 <body>
 
     <header>
-        <section class="navbar">
+        <section class="navbar" id="navbar">
             <div class="navbar-text-img">
-                <img src="logo.svg" alt="Logo">
-                <a href="#novidades" class="hover-underline-animation left">Novidades</a>
-                <a href="#experiencias" class="hover-underline-animation left">Experiências</a>
-                <a href="#estilo" class="hover-underline-animation left">Estilo</a>
-                <a href="#marcas" class="hover-underline-animation left">Marcas</a>
+                <a href="Coca-Cola.html">
+                    <img src="./img/logo.svg" alt="Logo">
+                </a>
+                <a href="./Marcas/marcas.html" class="hover-underline-animation left" id="marcas">Marcas</a>
+    
+                <ul class="menu">
+                    <li class="dropdown-container">
+                        <a href="#" class="hover-underline-animation left" id="dropdown-link">
+                            Descobrir <i class="bi bi-arrow-right-short"></i>
+                        </a>
+                        <ul class="dropdown">
+                            <li><a href="./instituto/instituto.html" class="hover-underline-animation left">Instituto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+    
+                <a href="#" class="hover-underline-animation left">Impacto</a>
+                <a href="#" class="hover-underline-animation left">Sobre nós</a>
             </div>
             <div class="navbar-icon">
                 <i class="bi bi-person"></i>
             </div>
         </section>
     </header>
+
 
     <main>
 
@@ -41,19 +55,19 @@
                         <input type="radio" name="radio-botao" id="radio4">
 
                         <div class="slide first">
-                            <img src="imgCarrosel1.webp" alt="imagem 1">
+                            <img src="./img/imgCarrosel1.webp" alt="imagem 1">
                         </div>
 
                         <div class="slide">
-                            <img src="imgCarrosel2.webp" alt="imagem 2">
+                            <img src="./img/imgCarrosel2.webp" alt="imagem 2">
                         </div>
 
                         <div class="slide">
-                            <img src="imgCarrosel3.webp" alt="imagem 3">
+                            <img src="./img/imgCarrosel3.webp" alt="imagem 3">
                         </div>
 
                         <div class="slide">
-                            <img src="imgCarrosel4.webp" alt="imagem 4">
+                            <img src="./img/imgCarrosel4.webp" alt="imagem 4">
                         </div>
 
                         <div class="navegacao-botao">
@@ -89,7 +103,7 @@
         <section class="novidades">
 
             <div class="container-novidades" data-aos="fade-up" data-aos-once="true">
-                <img src="imgNovidades1.webp" alt="">
+                <img src="img/imgNovidades1.webp" alt="">
 
                 <h1>Promoção Compre e Ganhe</h1>
 
@@ -102,7 +116,7 @@
             </div>
 
             <div class="container-novidades" data-aos="fade-up" data-aos-once="true">
-                <img src="imgNovidades2.webp" alt="">
+                <img src="img/imgNovidades2.webp" alt="">
 
 
                 <h1>Aumente o Volume!</h1>
@@ -115,7 +129,7 @@
             </div>
 
             <div class="container-novidades" data-aos="fade-up" data-aos-once="true">
-                <img src="imgNovidades3.webp" alt="">
+                <img src="img/imgNovidades3.webp" alt="">
 
 
                 <h1>Sprite Lemon Fresh deixa tudo bem mais leve</h1>
@@ -137,7 +151,7 @@
         <section class="experiencias">
 
             <div class="container-experiencias" data-aos="fade-up" data-aos-once="true">
-                <img src="imgExperiencias1.webp" alt="">
+                <img src="./img/imgExperiencias1.webp" alt="">
 
                 <h1>Coke Studio</h1>
 
@@ -147,7 +161,7 @@
             </div>
 
             <div class="container-experiencias" data-aos="fade-up" data-aos-once="true">
-                <img src="imgExperiencias2.webp" alt="">
+                <img src="./img/imgExperiencias2.webp" alt="">
 
                 <h1>Sobreviva ao calor do verão</h1>
 
@@ -172,7 +186,7 @@
             </div>
 
             <div class="container-sustentabilidade" data-aos="fade-up" data-aos-once="true">
-                <img src="imgSustentabilidade.webp" alt="">
+                <img src="./img/imgSustentabilidade.webp" alt="">
             </div>
             
         </section>
@@ -181,7 +195,7 @@
 
         <section class="estilo" id="estilo">
             <div class="container-estilo" data-aos="fade-up" data-aos-once="true">
-                <img src="imgEstilo.webp" alt="">
+                <img src="./img/imgEstilo.webp" alt="">
             </div>
 
             <div class="container-estilo" data-aos="fade-up" data-aos-once="true">
@@ -200,21 +214,23 @@
 
         <section class="marcas" data-aos="fade-up" data-aos-once="true" id="marcas">
             <div class="container-marcas">
-                <img src="imgMarcas1.svg" alt="">
+                <img src="./img/imgMarcas1.svg" alt="">
             </div>
 
-            <div class="container-marcas" data-aos="fade-up" data-aos-once="true">
-                <img src="imgMarcas2.webp" alt="">
+            <div class="container-marcas">
+                <img src="./img/imgMarcas2.webp" alt="">
             </div>
 
-            <div class="container-marcas" data-aos="fade-up" data-aos-once="true">
-                <img src="imgMarcas3.webp" alt="">
+            <div class="container-marcas">
+                <img src="./img/imgMarcas3.webp" alt="">
             </div>
 
         </section>
 
         <div class="button-marcas" data-aos="fade-up" data-aos-once="true">
-            <button>Veja mais</button>
+            <a href="./Marcas/marcas.html">
+                <button>Veja mais</button>
+            </a>
         </div>
 
     </main>
@@ -223,7 +239,9 @@
 
         <section class="footer">
             <div class="footer-container">
-                <img src="logoWhite.svg" alt="" srcset="">
+                <a href="#navbar">
+                    <img src="./img/logoWhite.svg" alt="" srcset="">
+                </a>
                 <button><i class="bi bi-geo-alt"></i> Brazil</button>
             </div>
             <div class="footer-container-text">

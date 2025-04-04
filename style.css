@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 2px;
 }
 
@@ -9,7 +9,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* ----------------NAVBAR------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -----------NAVBAR------------ */
 
 .navbar{
     display: flex;
@@ -38,6 +40,80 @@ html {
 .navbar-text-img img{
     height: 2.1vh;
 }
+
+/* ----------DROPDOWN-NAVBAR------------- */
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container a {
+    padding: 10px 15px;
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    display: none;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown li a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.dropdown li a:hover {
+    background: rgb(227, 227, 227);
+}
+
+.dropdown-container:hover .dropdown {
+    display: block;
+}
+
+/* ----------ANIMAÇÃO-SETA-HOVER------------ */
+
+.dropdown-container a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Espaço entre o texto e o ícone */
+    transition: 0.3s ease-in-out;
+}
+
+.bi-arrow-right-short {
+    transition: transform 0.3s ease-in-out;
+    font-size: 14px; /* Ajuste o tamanho conforme necessário */
+}
+
+.dropdown-container:hover .bi-arrow-right-short {
+    transform: rotate(90deg); /* Gira o ícone para baixo */
+}
+
+/*</> ----------DROPDOWN-NAVBAR------------- */
 
 .navbar-icon{
     display: flex;
@@ -81,8 +157,6 @@ html {
   .hover-underline-animation.left:hover::after {
     transform-origin: bottom left;
   }
-
-
 
 
 /* -----------------MAIN------------- */
@@ -579,11 +653,12 @@ main{
 }
 
 .footer-container img{
+    height: 50vh;
     width: 20%;
 }
 
 .footer-container button{
-    width: 13%;
+    width: 16vw;
     height: 4.5vh;
     border-radius: 50px;
     border: 2px solid white;
