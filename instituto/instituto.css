@@ -191,6 +191,7 @@ html {
 }
 
 .institutoImg {
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,7 +230,7 @@ html {
 
 
 .texto-abaixo-container-inicial{
-    margin-top: 3%;
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,7 +251,7 @@ html {
 
 
 .instituto-img2{
-    margin-top: 3%;
+    margin-top: 5%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -271,7 +272,7 @@ html {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
 }
 
@@ -331,30 +332,247 @@ html {
 }
 
 
+/* -----------------NOSSAS-INICIATIVAS-H1------------------- */
+
+#nossas-iniciativas{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nossas-iniciativas h1{
+    letter-spacing: normal;
+}
+
+.iniciativas-container-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 40vh;
+    width: 100%;
+}
+
+.container-iniciativas{
+    height: 32vh;
+    width: 27vw;
+    /* background-color: white;     */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container-iniciativas img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 7px 7px;
+}
+
+.container-iniciativas h1{
+    font-size: 1.8rem;
+    width: 60%;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.container-iniciativas p{
+    margin-top: 1%;
+    font-size: 17px;
+    width: 90%;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+.container-iniciativas button{
+    margin-top: 4%;
+    width: 17vw;
+    height: 4.5vh;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: bold; 
+    letter-spacing: 0.5px;
+    transition: all .55s ease-in-out;
+    transform: scaleX(0.98);
+}
+
+.container-iniciativas button:hover{
+    cursor: pointer;
+    background-color: rgb(197, 197, 197);
+}
 
 
+/* -----------PLATAFORMA-COLETIVO-JOVEM------------------- */
 
 
+.plataforma-coletivo-jovem-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 40vh;
+    width: 100%;
+}
+
+.container-plataforma-jovem{
+    height: 32vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.container-plataforma-jovem img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container-plataforma-jovem h1{
+    margin-left: 15%;
+    font-size: 2rem;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.container-plataforma-jovem p{
+    margin-left: 15%;
+    margin-top: 1%;
+    font-size: 17px;
+    width: 90%;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+.container-plataforma-jovem button{
+    margin-left: 15%;
+    margin-top: 4%;
+    width: 17vw;
+    height: 4.5vh;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: bold;   
+    letter-spacing: 0.5px;
+    transition: all .55s ease-in-out;
+    transform: scaleX(0.98);
+}
+
+.container-plataforma-jovem button:hover{
+    cursor: pointer;
+    background-color: rgb(197, 197, 197);
+}
 
 
+/* -----------------RUMO-AOS-MILHOES---------------- */
 
 
+.container-milhoes-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.container-milhoes1{
+    height: 60vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container-milhoes2{
+    height: 40vh;
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.container-milhoes1 h1{
+    margin-left: 10%;
+    font-size: 2.1rem;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.container-milhoes1 p{
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 17px;
+    width: 80%;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+.container-milhoes2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
 
 
+/* ---------------SIGA-NOSSAS-REDES-SOCIAIS--------------- */
 
 
+.redes-sociais{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
+.container-redes-sociais{
+    height: 10vh;
+    width: 50%;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.container-redes-sociais h1{
+    margin-left: 3%;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: normal;
+}
 
+.icons-redes-sociais{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
 
+.icons-redes-sociais a{
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.5vh;
+    width: 2.3vw;
+    border: 1px solid white;
+    border-radius: 70px;
+    gap: 10px;
+}
 
-
-
-
-
-
-
-
+.icons-redes-sociais i{
+    font-size: 15px;
+    color: white;    
+}
 
 
 
